@@ -1,0 +1,23 @@
+name: TitaniumSecurity
+version: 1.0
+main: me.parthop69.titaniumsecurity.TitaniumSecurity
+api-version: 1.21
+author: parthop69
+description: A robust authentication plugin for Minecraft servers, ensuring enhanced player security and user experience.
+
+commands:
+  login:
+    description: Allows a player to log in using their credentials.
+    usage: /login <password>
+  logout:
+    description: Logs a player out of their session.
+    usage: /logout
+  register:
+    description: Registers a new player account with a password.
+    usage: /register <password>
+  unregister:
+    description: Unregisters a player's account and deletes their data.
+    usage: /unregister <password>
+  changepassword:
+    description: Allows a player to change their account password.
+    usage: /changepassword <old-password> <new-password>

@@ -1,0 +1,16 @@
+# Configuration file for TitaniumSecurity
+
+# The maximum number of incorrect login attempts allowed before banning a player.
+max-login-attempts: 5
+
+# The time in seconds a player has to log in after joining the server.
+login-timeout: 120
+
+# Duration of the temporary ban after reaching the maximum failed login attempts (in minutes).
+ban-duration: 15
+
+# Message to display when a player joins the server and needs to log in or register.
+join-message: "Authentication Required: Please login or register to continue."
+
+# Blindness effect for unauthenticated players
+apply-blindness: true

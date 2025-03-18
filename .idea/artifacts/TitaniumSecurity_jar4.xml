@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TitaniumSecurity:jar4">
+    <output-path>$PROJECT_DIR$/out/artifacts/TitaniumSecurity_jar4</output-path>
+    <root id="archive" name="TitaniumSecurity.jar">
+      <element id="module-output" name="TitaniumSecurity" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/plugins/spigot-api-1.21.4-R0.1-20250210.030453-37-shaded.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
